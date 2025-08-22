@@ -5,3 +5,11 @@ body {
 nav {
     padding-left: 00px;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+
