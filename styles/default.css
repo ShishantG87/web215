@@ -1,15 +1,47 @@
+html, body {
+    height: 100vh;
+    padding: 0;
+    /* Layout to make page take full screen */
+}
+
+
 body {
     background-color: rgb(184, 153, 212);
+    min-height:100vh;
+    padding: 0;
 }
 
 nav {
     padding-left: 00px;
 }
+h1, h2 {
+    font-family: 'Courier New';
 
+}
+p {
+    font-family: 'sans-serifs';
+    font-size: 19px;
+}
 header {
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
+    flex-direction: column;
+}
+.header-nav {
+    display:flex;
+    gap: 10px;
+
+}
+a {
+    text-decoration-style: wavy;
+    color: black;
 }
 
-
+main {
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
