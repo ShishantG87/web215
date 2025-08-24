@@ -12,10 +12,19 @@ body {
 }
 
 .second-title {
-    margin-top: 30px;
+    position: relative;
+    bottom: 80px;
+    color: #65AFC8;
+    
+    font-size:40px;
 }
-
-main p{
+.home-text {
+    position: relative;
+    bottom: 70px;
+    
+}
+main p, .noL-url{
+    color: #8ccee4;
     text-align: left;
     margin-top: 30px;
 }
@@ -55,6 +64,9 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color:#340E0E;
+    border: 8px solid black;
+    padding: 100px
 }
 
 .layout-footer {
@@ -63,5 +75,10 @@ main {
     align-items: center;
     flex-direction: column;
     position:sticky;
+    
     top: 100%;
+    }
+
+    .foot-links a{
+        margin-right: 15px;
     }
