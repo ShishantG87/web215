@@ -4,6 +4,16 @@ html, body {
     /* Layout to make page take full screen */
 }
 
+.intro-img{
+    display:block;
+    margin-top:0;
+    margin-bottom:50px;
+}
+
+.caption {
+    position:relative;
+    bottom: 50px;
+}
 
 body {
     background-color: rgb(184, 153, 212);
@@ -15,15 +25,23 @@ body {
     position: relative;
     bottom: 80px;
     color: #65AFC8;
+    margin-bottom:0;
     
     font-size:40px;
 }
-.home-text {
-    position: relative;
-    bottom: 70px;
-    
+
+main li {
+    color: #8ccee4;
+    text-align: left;
+    font-size:21px;
+    margin-bottom:10px;
+   
+
 }
-main p, .noL-url{
+.home-text {
+     
+}
+main p, .noL-url {
     color: #8ccee4;
     text-align: left;
     margin-top: 30px;
@@ -75,7 +93,6 @@ main {
     align-items: center;
     flex-direction: column;
     position:sticky;
-    
     top: 100%;
     }
 
