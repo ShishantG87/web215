@@ -100,3 +100,21 @@ main {
         margin-right: 15px;
     }
 
+.quote {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.quote p {
+     color: #8ccee4bd;
+}
+
+.author-of-quote {
+    position: absolute;
+    left: 900px;
+    bottom: -580px;
+    
+    
+}
