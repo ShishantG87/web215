@@ -99,3 +99,9 @@ main {
     .foot-links a{
         margin-right: 15px;
     }
+
+
+    .other {
+        display: inline-block;
+        font-size: 15px;
+    }
